@@ -28,4 +28,4 @@ async def chatgpt_response(ctx):
     await ctx.send(response.choices[0].text.strip())
 
 # Run your bot
-bot.run('YOUR_DISCORD_BOT_TOKEN')
+bot.run('')
