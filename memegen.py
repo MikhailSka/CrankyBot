@@ -1,5 +1,5 @@
 import requests
-params = {"words": 10, "paragraphs": 1, "format": "json"}
+params = {category: 'blonde'}
 response = requests.get(f"https://jokes.p.rapidapi.com/", params=params,
  headers={
    "X-RapidAPI-Host": "jokes.p.rapidapi.com",
